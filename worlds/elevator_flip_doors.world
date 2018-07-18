@@ -9,8 +9,16 @@
 
     <!-- A ground plane -->
     <include>
-      <uri>model://ground_plane</uri>
+      <uri>model://ground_plane_gras</uri>
     </include>
+
+    <scene>
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+    </scene>
 
     <!-- <include>
       <uri>/home/manuel/ros_ws/master_ws/src/multifloor_building/worlds/building_with_elevator</uri>
